@@ -3011,9 +3011,18 @@ Sacrifice this creature: This creature deals 1 damage to target creature or play
             <name>Poison Counter</name>
             <set picURL="http://magiccards.info/extras/token/new-phyrexia/poison-counter.jpg">NPH</set>
             <manacost></manacost>
-            <type>Emblem</type>
+            <type>Emblem</type><!-- Not really. -->
             <tablerow>1</tablerow>
             <text></text>
+            <token>1</token>
+        </card>
+        <card><!-- Because where else are you going to put counters to mark this? -->
+            <name>Command Zone Marker</name>
+            <set picURL="http://s28.postimg.org/qtely23ul/Command_Zone_Marker.jpg">CMD</set>
+            <manacost></manacost>
+            <type>Emblem</type><!-- Not really. -->
+            <tablerow>1</tablerow>
+            <text>Your commander costs {2} more to cast from the Command Zone for each counter on this marker.</text>
             <token>1</token>
         </card>
     </cards>
